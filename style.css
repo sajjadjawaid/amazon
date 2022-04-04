@@ -70,7 +70,7 @@
     border: 2px solid grey;
     width: 60px;
     border-radius: 3px;
-    background-color: rgb(235, 180, 52);
+    background-color: #FF9900;
    
 }
 .deliver{
@@ -119,15 +119,7 @@
 } 
 
 /* section 1. */
-.section1{
-    border: 2px solid black;
-   
-}
- /* .section11{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-}  */
+
 
 .div1{
     display: flex;
@@ -144,4 +136,26 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 20px;
+}
+
+/* Section 2 */
+.section2{
+    margin-top: 5px;
+    border: 2px solid red;
+}
+.getknow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    background-color:rgb(19,26,34) ;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color:rgb(19,26,34) ;
+    gap: 15px;
 }
