@@ -1,0 +1,147 @@
+
+.nav {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    color: white;
+    background-color: rgb(19,26,34);
+    height: 80px;
+     overflow: hidden; 
+    
+    
+    
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+.logo-image{
+    height: 35px;
+}
+.flag-image {
+    height: 20px;
+    
+    margin-top: 34px;
+}
+.input1{
+    width: 600px;
+}
+
+.pakicon{
+    color: white;
+    
+}
+.carticon{
+    font-size: 30px;
+    color: white;
+}
+.downicon1{
+    color: gray;
+    
+    
+   
+}
+
+
+.flag{
+    display: flex;
+    flex-direction: row;
+}
+
+.all{
+    border: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    border-radius: 3px;
+    /* box-shadow: inset 2px 2px 35px rgb(185, 182, 182); */
+    background-color: rgb(230, 225, 225);
+    color: black;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    width: 60px;
+    border-radius: 3px;
+    background-color: rgb(235, 180, 52);
+   
+}
+.deliver{
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+}
+
+.return{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar 2 */
+
+.nav2{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-top: 14px;
+    gap: 12px;
+    font-size: 15px;
+    background-color: rgb(35, 47, 62);
+   height: 50px;
+    
+
+}
+.nav2 p{
+ 
+ height: 30px;
+ 
+}
+ .nav2 p:hover{
+ border: 2px solid white;
+ cursor: pointer;
+} 
+
+/* section 1. */
+.section1{
+    border: 2px solid black;
+   
+}
+ /* .section11{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}  */
+
+.div1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.div2{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start  ;
+}
+
+.game {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
